@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 public class TextToSpeech : MonoBehaviour {
 
-    private string url = "https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=AIzaSyAGqw4eWE8b1L1FTCuejsVKyM2LFp1rQys";
+    private string url = "https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=AIzaSyBcYF1v5KKqdx3-97kQ5wrNTL9hHDIRH2Q";
 
     private string request_part1 = "{\\\"audioConfig\\\": {\\\"audioEncoding\\\": \\\"LINEAR16\\\",\\\"effectsProfileId\\\": [\\\"telephony-class-application\\\"],\\\"pitch\\\": \\\"";
     public string pitch = "2.80";

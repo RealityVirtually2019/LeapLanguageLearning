@@ -10,8 +10,9 @@ public class ImageRecognizer : MonoBehaviour {
    
     public Texture2D targetTexture;
     public TextAsset imagebyte;
+    public const string API_KEY = "AIzaSyBcYF1v5KKqdx3-97kQ5wrNTL9hHDIRH2Q";
 
-    private string url = "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBcYF1v5KKqdx3-97kQ5wrNTL9hHDIRH2Q";
+    private string url = "https://vision.googleapis.com/v1/images:annotate?key=" + API_KEY;
     private string request_first_part = "{\"requests\": [{\"image\": {\"content\": \"";
     private string request_final_part = "\"},\"features\": [{\"type\": \"LABEL_DETECTION\"}]}]}";
     private string base64image;

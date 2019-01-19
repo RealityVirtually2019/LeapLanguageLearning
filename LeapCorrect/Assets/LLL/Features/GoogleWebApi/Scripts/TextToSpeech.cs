@@ -9,7 +9,7 @@ public class TextToSpeech : MonoBehaviour {
     private const string API_KEY = "AIzaSyBcYF1v5KKqdx3-97kQ5wrNTL9hHDIRH2Q";
 
 
-    private string url = "https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=" + API;
+    private string url = "https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=" + API_KEY;
 
     private string request_part1 = "{\\\"audioConfig\\\": {\\\"audioEncoding\\\": \\\"LINEAR16\\\",\\\"effectsProfileId\\\": [\\\"telephony-class-application\\\"],\\\"pitch\\\": \\\"";
     public string pitch = "2.80";

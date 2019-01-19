@@ -1,0 +1,275 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "3b0c40063d71d8e87bff103e150aebf18f7d999e",
+   "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
+   "size": 5036,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
+  },
+  {
+   "compression": 8,
+   "hash": "fac3c8f91297ede53952e4fa93cf2ce6344f84c9",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 2782760,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "8ed16c2c75d0b7f48c2515e58d8570f69772b418",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 33974824,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "6f4b561c07e508df85bd79d9c78e0d41cf58c5bc",
+   "xfrm_path": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/.out/.cache/release_lumin_clang-3.8_aarch64/com.finambs.leaptest-620599126892cdb6/libil2cpp.so-d9d071c168db87d7",
+   "xfrm_size": 33975582
+  },
+  {
+   "compression": 8,
+   "hash": "dc64ed4bee950e5ce1ab12268f627a3db179e4af",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 220456,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "4054e26e561cc79a6cfc9d880c746431bbcd9e05",
+   "xfrm_path": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/.out/.cache/release_lumin_clang-3.8_aarch64/com.finambs.leaptest-620599126892cdb6/AudioPluginMSASpatializer.so-bc9e4a8697c2a35d",
+   "xfrm_size": 221214
+  },
+  {
+   "compression": 8,
+   "hash": "aed32544e1ea67c511396569fcb89b586b15d839",
+   "pkgpath": "bin/UnityEngine.SpatialTracking.dll",
+   "size": 9216,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Plugins/UnityEngine.SpatialTracking.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "715f293d231a26472ba1672c3e59f76cb0e5e364",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 65536,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "d93ff7b64d92abd6dbb8419c3348ab5f56ad5ec5",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 728232,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "8f96a2dfaff775325043112726671a596407ea3c",
+   "xfrm_path": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/.out/.cache/release_lumin_clang-3.8_aarch64/com.finambs.leaptest-620599126892cdb6/UnityMagicLeap.so-bc9e4a8697c2a35d",
+   "xfrm_size": 728990
+  },
+  {
+   "compression": 8,
+   "hash": "a765bb75be250a6992c1a46fc23a55501e369b85",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "64d7ca8ef5fc9829429be84bf7fab83b0a6f18f9",
+   "xfrm_path": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/.out/.cache/release_lumin_clang-3.8_aarch64/com.finambs.leaptest-620599126892cdb6/libml_camera_plugin.so-bc9e4a8697c2a35d",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "633780c922a0dbfe032638afff9a25e3fc49219f",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 38792,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "5e77adefb71ac89699eea0d34ae701442a083646",
+   "xfrm_path": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/.out/.cache/release_lumin_clang-3.8_aarch64/com.finambs.leaptest-620599126892cdb6/libml_mediaplayer_plugin.so-bc9e4a8697c2a35d",
+   "xfrm_size": 39550
+  },
+  {
+   "compression": 8,
+   "hash": "5629c7ff5fb59ddc72778d4b9d3dbadcde480998",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 328192,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "dc1423ee40a78f4701880b37e1f07bc4f3500e9d",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3308004,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "1c281a7abd7f0cec77eb390c3aa4d795a656335e",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 393452,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "9bbb5e3aae616602db933abd34140e11132fccea",
+   "pkgpath": "Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json",
+   "size": 438,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "e94169e04982098c15b71dea64d4bb6da942f232",
+   "pkgpath": "Data/boot.config",
+   "size": 76,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "6f082de912b8371b37b8167bdf86c9cbf0d39a10",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 35460,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "f45ca069b6071b1cf3eaa80335a66ab0f6db240e",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 36264,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "c7eb8122e4e063e93d2808ede730d4bef8efe5ef",
+   "pkgpath": "Data/level0",
+   "size": 15800,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "493eee247ebd78404ae5852c34d0c69e9549d84f",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "2ad665a04784f59cb07eb1b6b14847702eb26d3a",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1203448,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "dccd0311f0bc12c61c7e475124206a41f172e925",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 544288,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "8f59c553fa65e4c62b244f94275fdf50ef6a40e8",
+   "pkgpath": "bin/Player.elf",
+   "size": 22318968,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "b1631be04095fbc42c7d1cf84df7fc1f9681e1a8",
+   "xfrm_path": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/.out/.cache/release_lumin_clang-3.8_aarch64/com.finambs.leaptest-620599126892cdb6/Player.elf-0a7936078609039e",
+   "xfrm_size": 22319726
+  },
+  {
+   "compression": 8,
+   "hash": "04d9d89bbd5d53bbba9c76987e601435ae01d6d8",
+   "pkgpath": "manifest.xml",
+   "size": 907,
+   "src": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "7c847bb93289735f24fc0ea4667139eca835e9da",
+     "developer_id": "77c1af16-a558-4be7-a9c3-bb6f79a21103"
+    }
+   },
+   "xfrm_hash": "87a4e9fe569be22a97edb1cdf1cfb1b5369b23bf",
+   "xfrm_path": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/.out/.cache/release_lumin_clang-3.8_aarch64/com.finambs.leaptest-620599126892cdb6/manifest.xml-0a7936078609039e",
+   "xfrm_size": 920
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/finambsdorf/MagicLeap/mlsdk/v0.19.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "41dd6d6123b5f95cf078955b68286e0913681c04",
+   "xfrm_path": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/.out/.cache/release_lumin_clang-3.8_aarch64/com.finambs.leaptest-620599126892cdb6/libc++_shared.so-73e9aee748ee8cf4",
+   "xfrm_size": 977590
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert"
+  },
+  "taildata": {
+   "devcert": "/Users/finambsdorf/Desktop/MIT/2019/LeapCorrect/Assets/Certs/try.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

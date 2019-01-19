@@ -47,7 +47,7 @@ public class TextToSpeech : MonoBehaviour {
         Debug.Log(request_part1 + pitch + request_part2 + speaking_rate + request_part3 + text_content + request_part4);
         request.uploadHandler = (UploadHandler)new UploadHandlerRaw(bodyRaw);
         request.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
-        //request.SetRequestHeader("Content-Type", "application/json");
+        request.SetRequestHeader("Content-Type", "application/json");
 
         yield return request.SendWebRequest();
         Debug.Log("Status Code: " + request.responseCode);

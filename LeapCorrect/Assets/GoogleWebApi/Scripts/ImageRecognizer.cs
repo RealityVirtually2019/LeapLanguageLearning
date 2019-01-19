@@ -8,6 +8,9 @@ using System;
 
 public class ImageRecognizer : MonoBehaviour {
 
+   
+    public Texture2D targetTexture;
+    public TextAsset imagebyte;
 
     private string url = "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBcYF1v5KKqdx3-97kQ5wrNTL9hHDIRH2Q";
     private string request_first_part = "{\"requests\": [{\"image\": {\"content\": \"";
@@ -21,6 +24,8 @@ public class ImageRecognizer : MonoBehaviour {
         WWW www;
         
         var headers = new Dictionary<string, string> { { "Content-Type", "application/json" } };
+        base64image = imagebyte.text;
+        Debug.Log(base64image);
         var formData = System.Text.Encoding.UTF8.GetBytes(request_first_part+base64image +request_final_part);
 
         www = new WWW(url, formData, headers);

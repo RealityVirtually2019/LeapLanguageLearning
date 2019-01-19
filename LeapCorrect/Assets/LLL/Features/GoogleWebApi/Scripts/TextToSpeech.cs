@@ -6,8 +6,8 @@ using UnityEngine.Networking;
 public class TextToSpeech : MonoBehaviour {
 
     // API Key constat 
-    private const string API_KEY = "AIzaSyBcYF1v5KKqdx3-97kQ5wrNTL9hHDIRH2Q"
-    
+    private const string API_KEY = "AIzaSyBcYF1v5KKqdx3-97kQ5wrNTL9hHDIRH2Q";
+
 
     private string url = "https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=" + API;
 

@@ -1,0 +1,16 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="77c1af16-a558-4be7-a9c3-bb6f79a21103" ml:package="com.finambs.leaptest" ml:version_code="1" ml:version_name="">
+  <application ml:min_api_level="3" ml:sdk_version="1.0" ml:visible_name="LeapLanguageLearning">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="AudioCaptureMic" />
+    <uses-privilege ml:name="CameraCapture" />
+    <uses-privilege ml:name="ControllerPose" />
+    <uses-privilege ml:name="GesturesConfig" />
+    <uses-privilege ml:name="IdentityRead" />
+    <uses-privilege ml:name="Internet" />
+    <uses-privilege ml:name="LocalAreaNetwork" />
+    <uses-privilege ml:name="PwFoundObjRead" />
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="LeapLanguageLearning">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>

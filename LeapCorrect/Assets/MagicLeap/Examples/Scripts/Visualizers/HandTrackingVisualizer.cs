@@ -22,6 +22,10 @@ namespace MagicLeap
     /// each hand.
     /// </summary>
     public class HandTrackingVisualizer : MonoBehaviour
+
+
+
+
     {
         #region Private Variables
         [SerializeField, Tooltip("The hand to visualize.")]
@@ -57,6 +61,14 @@ namespace MagicLeap
         private List<Transform> _thumb;
         private List<Transform> _wrist;
         #endregion
+
+
+        ////////////////////////
+        public Vector3 FingertipPosition;
+        public GameObject Funny;
+
+
+
 
         #region Private Properties
         /// <summary>
@@ -135,7 +147,29 @@ namespace MagicLeap
                 for (int i = 0; i < Hand.Index.KeyPoints.Count; ++i)
                 {
                     _indexFinger[i].position = Hand.Index.KeyPoints[i].Position;
+                    print( _indexFinger[1].position);
+                    FingertipPosition = _indexFinger[1].position;
+                    Funny.transform.position = transform.TransformPoint(FingertipPosition);
+
+
+                   // print (Funny.transform.position);   
                 }
+
+
+                // Raycast
+                RaycastHit hit;
+
+                if (Physics.Raycast(Funny.transform.position,Vector3.forward,out hit))
+
+                {  
+                    print (hit.point);
+                    Debug.DrawLine(this.transform.position, hit.point);
+                }
+
+
+
+
+
 
                 // Thumb
                 for (int i = 0; i < Hand.Thumb.KeyPoints.Count; ++i)
@@ -154,6 +188,11 @@ namespace MagicLeap
                 {
                     _center.position = Hand.Center;
                 }
+
+             
+            
+
+
             }
         }
         #endregion
@@ -190,6 +229,11 @@ namespace MagicLeap
             for (int i = 0; i < Hand.Index.KeyPoints.Count; ++i)
             {
                 _indexFinger.Add(CreateKeyPoint(Hand.Index.KeyPoints[i], _indexColor).transform);
+
+               
+
+
+
             }
 
             // Thumb
@@ -224,6 +268,21 @@ namespace MagicLeap
 
             return newObject;
         }
+
+
+          void FixedUpdate()
+        {
+        Vector3 fwd = transform.TransformDirection(Vector3.forward);
+
+        if (Physics.Raycast(transform.position, fwd, 10))
+            print("There is something in front of the finger!");
+
+
+
+        }
+
+
+
         #endregion
     }
 }

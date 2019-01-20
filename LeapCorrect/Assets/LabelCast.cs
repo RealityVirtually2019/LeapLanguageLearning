@@ -41,13 +41,13 @@ public class LabelCast : MonoBehaviour {
 
 		RaycastHit hit;
 
-        if (Physics.Raycast(ForwardCursor.transform.position, fwd, out hit))
+        if (Physics.Raycast(transform.TransformPoint(ForwardCursor.transform.position), fwd, out hit))
 		{
 		print("I found something");
 
 		Hitpoint = hit.point;
 
-		DebugObject.transform.position = hit.point;
+		DebugObject.transform.position =hit.point;
 		//Instantiate(Label, Hitpoint, Quaternion.identity);
 		}
 

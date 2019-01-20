@@ -10,6 +10,7 @@
     <uses-privilege ml:name="LocalAreaNetwork" />
     <uses-privilege ml:name="PwFoundObjRead" />
     <uses-privilege ml:name="WorldReconstruction" />
+    <uses-privilege ml:name="AudioRecognizer" />
     <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="LeapLanguageLearning">
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
     </component>

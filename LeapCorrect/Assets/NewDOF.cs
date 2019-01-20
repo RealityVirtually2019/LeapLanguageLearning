@@ -27,4 +27,3 @@ public class Control6DOF : MonoBehaviour {
 }
 
 
-

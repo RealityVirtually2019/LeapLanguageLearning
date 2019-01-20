@@ -26,4 +26,3 @@ public class Control6DOF : MonoBehaviour {
 	#endregion
 }
 
-

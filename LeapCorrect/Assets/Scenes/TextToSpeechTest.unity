@@ -156,13 +156,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jsonString: {fileID: 4900000, guid: cce45e8971d194c5c85b4e2c945ae76a, type: 3}
   aduio64String: {fileID: 4900000, guid: d1cfca55bf2884cd39cc5c796d053f35, type: 3}
-  request_part1: {fileID: 4900000, guid: 03b8148884bac4d58aaa77c71252fee1, type: 3}
+  request_part1: {fileID: 4900000, guid: 22fce85c18972439096c9f67f7594b58, type: 3}
   pitch: 2.89
-  request_part2: {fileID: 4900000, guid: 743a7dceddefa417a9a8aaa476ef1379, type: 3}
+  request_part2: {fileID: 4900000, guid: 25b9d3bd3794f4ddfb1a27456ca759a4, type: 3}
   speaking_rate: 1.45
-  request_part3: {fileID: 4900000, guid: 79ff29995a9c649c082edb512d170092, type: 3}
-  text_content: My name is Tanja
-  request_part4: {fileID: 4900000, guid: 67e5805fe854145f9912905ae2a02be2, type: 3}
+  request_part3: {fileID: 4900000, guid: 7080c7e17b134454892d03203d144d16, type: 3}
+  text_content: Tiger
+  request_part4: {fileID: 4900000, guid: 0221ee7cf08c54094a3f9395ec2d7060, type: 3}
 --- !u!82 &513923059
 AudioSource:
   m_ObjectHideFlags: 0
@@ -172,7 +172,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 1407844816}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -384,6 +384,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!83 &1407844816
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: testSound
+  m_LoadType: 0
+  m_Channels: 1
+  m_Frequency: 24000
+  m_BitsPerSample: 32
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1598411726
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,10 +543,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1898448720}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2639b88e6520d49b9b9d8a74ca994751, type: 3}
+  m_Script: {fileID: 11500000, guid: bba3bd0ba29d942a694185a8902d6c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://translation.googleapis.com/language/translate/v2/?q=tiger&source=en&target=de&key=AIzaSyAGqw4eWE8b1L1FTCuejsVKyM2LFp1rQys
+  url: 
   t2S: {fileID: 513923058}
 --- !u!4 &1898448722
 Transform:

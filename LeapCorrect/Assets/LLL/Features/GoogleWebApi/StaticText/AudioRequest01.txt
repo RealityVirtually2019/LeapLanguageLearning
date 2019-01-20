@@ -1,0 +1,1 @@
+{"audioConfig": {"audioEncoding": "LINEAR16","effectsProfileId": ["telephony-class-application"],"pitch": "

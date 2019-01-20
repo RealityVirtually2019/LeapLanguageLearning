@@ -1,1 +1,1 @@
-{\"audioConfig\": {\"audioEncoding\": \"LINEAR16\",\"effectsProfileId\": [\"telephony-class-application\"],\"pitch\": \"2.80\",\"speakingRate\": \"1.23\"},\"input\": {\"text\": \"wasserflasche\"},\"voice\": {\"languageCode\": \"de-DE\",\"name\": \"de-DE-Wavenet-A\"}})
+{"audioConfig": {"audioEncoding": "LINEAR16","pitch": "0.00","speakingRate": "1.00"},"input": {"text": "Text"},"voice": {"languageCode": "en-US","name": "en-US-Wavenet-D"}}

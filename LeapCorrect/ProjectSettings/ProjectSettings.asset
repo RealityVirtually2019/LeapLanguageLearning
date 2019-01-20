@@ -677,8 +677,8 @@ PlayerSettings:
   - PwFoundObjRead
   - AudioCaptureMic
   - IdentityRead
-  - WorldReconstruction
   - AudioRecognizer
+  - WorldReconstruction
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2

@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MagicLeap/Examples/Scenes/HandTracking.unity
     guid: c027f118f9ccd4979b8795eb3900db70
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/Meshing.unity
+    guid: 867506c3cbb29bc42a71d236fbd415c2
   m_configObjects: {}

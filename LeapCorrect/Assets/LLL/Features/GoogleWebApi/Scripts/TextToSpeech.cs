@@ -8,10 +8,8 @@ using System.Text.RegularExpressions;
 
 public class TextToSpeech : MonoBehaviour {
 
-// API Key constat 
-
-
-
+    // API Key constat 
+    public GameObject wordLabel;
 
 public TextAsset jsonString;
 public TextAsset aduio64String;
@@ -36,23 +34,8 @@ private string result;
 
 
 
-//public void PlaySound()
-//{
 
-//    WWW www;
 
-//    //var headers = new Dictionary<string, string> { { "Content-Type", "application/json" } };
-//    var headers = new Dictionary<string, string> { { "Content-Type", "application/json" } };
-
-//    var formData = System.Text.Encoding.UTF8.GetBytes(request_part1 + pitch + request_part2 + speaking_rate + request_part3 + text_content + request_part4);
-
-//    www = new WWW(url, formData, headers);
-//    StartCoroutine(WaitForRequest(www));
-//
-//    //AudioSource AS = GetComponent<AudioSource>();
-//    //AS.clip = www.GetAudioClip(true, true, AudioType.MPEG);
-//    //AS.Play();
-//}
 
 public void PlaySound()
 {
@@ -68,20 +51,19 @@ public void PlaySound()
 }
 
 public void GetSound(){
-//    StartCoroutine(WaitForRequest());
-//}
 
+        Debug.Log("noLabel");
+        StartCoroutine(Post());
+}
 
-//IEnumerator WaitForRequest()
-//{
-    ////Regex rgx = new Regex(pattern);
-    ////string value = rgx.Match(testString).ToString();
-    ////value = value.Substring(3, value.Length - 4);
-   
+public void GetSound(string wordDeu){ 
+    Debug.Log("setLabel");
+    wordLabel.GetComponent<WordLabel>().setLabel(wordDeu, text_content);
+
     StartCoroutine(Post());
 }
 
-IEnumerator Post()
+    IEnumerator Post()
 {
     var request = new UnityWebRequest(url, "POST");
 

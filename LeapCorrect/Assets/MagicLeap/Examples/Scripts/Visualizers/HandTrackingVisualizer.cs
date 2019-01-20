@@ -67,6 +67,8 @@ namespace MagicLeap
         public Vector3 FingertipPosition;
         public GameObject Funny;
 
+        public GameObject HitpointMarker;
+
 
 
 
@@ -162,6 +164,7 @@ namespace MagicLeap
                 if (Physics.Raycast(Funny.transform.position,Vector3.forward,out hit))
 
                 {  
+                    HitpointMarker.transform.position = hit.point;
                     print (hit.point);
                     Debug.DrawLine(this.transform.position, hit.point);
                 }

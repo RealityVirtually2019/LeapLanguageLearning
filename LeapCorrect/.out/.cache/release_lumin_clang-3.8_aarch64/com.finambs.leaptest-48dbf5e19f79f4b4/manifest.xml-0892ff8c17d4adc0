@@ -9,6 +9,7 @@
     <uses-privilege ml:name="Internet" />
     <uses-privilege ml:name="LocalAreaNetwork" />
     <uses-privilege ml:name="PwFoundObjRead" />
+    <uses-privilege ml:name="WorldReconstruction" />
     <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="LeapLanguageLearning">
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
     </component>

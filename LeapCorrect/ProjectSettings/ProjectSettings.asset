@@ -662,7 +662,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: /Users/finambsdorf/Desktop/MIT/2019/GIT/LeapLanguageLearning/LeapCorrect/Assets/Certs/try.cert
+    m_CertPath: /Users/ruimingwang/Documents/GitHub/LeapLanguageLearning/LeapCorrect/Assets/Certs/try.cert
     m_PrivateKeyPath: 
   luminIsChannelApp: 0
   luminVersion:

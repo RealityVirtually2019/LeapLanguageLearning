@@ -21,6 +21,8 @@ namespace MagicLeap
     [RequireComponent(typeof(PrivilegeRequester))]
     public class ImageCaptureExample : MonoBehaviour
     {
+
+        public ImageRecognizer imageRecognizer;
         [System.Serializable]
         private class ImageCaptureEvent : UnityEvent<Texture2D>
         {}
@@ -275,6 +277,7 @@ namespace MagicLeap
             {
                 OnImageReceivedEvent.Invoke(texture);
             }
+            imageRecognizer.UpdloadScreen(imageData);
         }
 
         /// <summary>

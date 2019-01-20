@@ -20,6 +20,18 @@ public class ImageRecognizer : MonoBehaviour {
 
     string pattern = "description\": \"(.*)\"";
 
+    public WWW UpdloadScreen(byte[] imageData)
+    {
+        WWW www;
+
+        var headers = new Dictionary<string, string> { { "Content-Type", "application/json" } };
+
+        var formData = System.Text.Encoding.UTF8.GetBytes(request_first_part + System.Convert.ToBase64String(imageData) + request_final_part);
+
+        www = new WWW(url, formData, headers);
+        StartCoroutine(WaitForRequest(www));
+        return www;
+    }
 
     public WWW UpdloadScreen()
     {

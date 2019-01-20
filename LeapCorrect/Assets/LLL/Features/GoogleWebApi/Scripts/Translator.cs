@@ -16,6 +16,9 @@ public class Translator : MonoBehaviour {
 
     string pattern = "translatedText\": \"(.*)\"";
 
+    string wordEng;
+    string wordDeu;
+
     public void Translate()
     {
         //WWW www;
@@ -70,6 +73,7 @@ public class Translator : MonoBehaviour {
 
     IEnumerator GetText(string value)
     {
+        string origianlValue = value;
         value = url_01 + value + url_02;
         Debug.Log(value);
         value.Replace(" ", "%20");
@@ -91,7 +95,7 @@ public class Translator : MonoBehaviour {
                 translated_word = translated_word.Substring(18, translated_word.Length - 19);
                 Debug.Log(translated_word);
                 t2S.text_content = translated_word;
-                t2S.GetSound();
+                t2S.GetSound(origianlValue);
             }
         }
     }

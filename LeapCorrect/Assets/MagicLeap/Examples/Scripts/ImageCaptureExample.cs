@@ -41,6 +41,12 @@ namespace MagicLeap
         private bool _hasShownPrivPopup = false;
         private Thread _captureThread = null;
 
+        public Transform Label;
+	    public GameObject DebugObject;
+	    public Vector3 Hitpoint;
+
+      
+
         /// <summary>
         /// The example is using threads on the call to MLCamera.CaptureRawImageAsync to alleviate the blocking
         /// call at the beginning of CaptureRawImageAsync, and the safest way to prevent race conditions here is to
@@ -125,8 +131,17 @@ namespace MagicLeap
             }
         }
 
+
+
+
+        
         private void Update()
         {
+
+  
+
+
+
             if (_doPrivPopup && !_hasShownPrivPopup)
             {
                 Instantiate(Resources.Load("PrivilegeDeniedError"));
@@ -134,6 +149,9 @@ namespace MagicLeap
                 _hasShownPrivPopup = true;
             }
         }
+
+        
+      
         #endregion
 
         #region Public Methods
@@ -144,6 +162,9 @@ namespace MagicLeap
         /// <param name="fileName">The name of the file to be saved to.</param>
         public void TriggerAsyncCapture()
         {
+
+
+
             if (_captureThread == null || (!_captureThread.IsAlive))
             {
                 ThreadStart captureThreadStart = new ThreadStart(CaptureThreadWorker);
@@ -218,6 +239,7 @@ namespace MagicLeap
                 MLInput.OnControllerButtonDown += OnButtonDown;
 
                 _hasStarted = true;
+               
             }
         }
         #endregion
@@ -255,8 +277,18 @@ namespace MagicLeap
             if (_controllerConnectionHandler.IsControllerValid(controllerId) && MLInputControllerButton.Bumper == button && !_isCapturing)
             {
                 TriggerAsyncCapture();
+                
+                 Instantiate(Label, Hitpoint, Quaternion.identity);
+
             }
         }
+
+
+    
+
+
+
+
 
         /// <summary>
         /// Handles the event of a new image getting captured.

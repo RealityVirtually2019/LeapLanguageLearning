@@ -1,16 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.MagicLeap;
+
+
+    [RequireComponent(typeof(ControllerConnectionHandler))]
+
 
 public class LabelCast : MonoBehaviour {
 
 
+
+	
+
 	public Transform Label;
+	public GameObject DebugObject;
+	public Vector3 Hitpoint;
 
 
+	  public GameObject ForwardCursor;
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
+
+
 	}
 	
 	// Update is called once per frame
@@ -28,13 +41,18 @@ public class LabelCast : MonoBehaviour {
 
 		RaycastHit hit;
 
-        if (Physics.Raycast(this.transform.position, fwd, out hit))
+        if (Physics.Raycast(ForwardCursor.transform.position, fwd, out hit))
 		{
 		print("I found something");
-;		 Instantiate(Label, hit.point, Quaternion.identity);	
+
+		Hitpoint = hit.point;
+
+		DebugObject.transform.position = hit.point;
+		//Instantiate(Label, Hitpoint, Quaternion.identity);
 		}
-         
+
     }
 
+	    
 
 }
